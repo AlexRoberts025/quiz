@@ -1,0 +1,49 @@
+html {
+    font-family: 'Bebas Neue', sans-serif;
+}
+form {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right:25%;
+    background-color: gray;
+    border: 2px outset rgb(70, 70, 70);
+    padding: 10px;
+}
+
+label {
+    color:white;
+    text-shadow: black 2px 2px 2px;
+    font-size: 24px;
+}
+
+
+h1 {
+    text-align:center;
+    color:royalblue;
+    text-shadow: silver 2px 2px 2px;
+    font-size:48px;
+}
+    #result {
+        color:white;
+        text-shadow: royalblue 2px 2px 2px;
+    }
+
+p {
+    padding-left: 20px;
+}
+.buttons {
+    display:flex;
+    justify-content: flex-end;
+}
+.btn {
+    font-size: 36px;
+    padding: 8px;
+    background-color: #a5a5a5;
+    color:rgb(59, 59, 59);
+    margin-right:20px;
+}
+    .btn:hover {
+        background-color: rgb(59, 59, 59);
+        color:rgb(165, 165, 165);
+    }

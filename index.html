@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz WebPage</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 id="result"></h1>
+
+    <form name="quiz" id="quiz">
+    <div class="container">
+        <h1>Quiz App</h1>
+        <div class="questions">
+        <label class="lbl" name="question"> 1. Inside which HTML element do you put the JavaScript?</label><br><br>
+        
+       <p><input type="radio"  name="q1"  value="correct">&lt; script &gt;<br></p> 
+       <p><input type="radio"   name="q1"  value="wrong">&lt; js &gt;<br> </p> 
+        <p><input type="radio"  name="q1"  value="wrong">&lt; javascript &gt;<br></p>
+       <br>
+       
+    </div>
+      
+    <div class="questions">
+            <label class="lbl" name="question"> 2. What is the correct JavaScript synatx to write "Hello World" ?</label><br><br>
+              
+        <p><input type="radio" name="q2"  value="wrong"> The &lt; head  &gt; section<br></p>
+        <p> <input type="radio" name="q2"  value="correct">Both the &lt;body  &gt;and &lt;head &gt;section<br> </p>
+       <p><input type="radio" name="q2"  value="wrong">The body &lt;section &gt;<br></p> 
+    </div>
+   
+    <div class="questions">
+        <label class="lbl" name="question"> 3. What is the correct syntax for referring to an external script called "File.js"?</label><br><br>
+        
+       <p><input type="radio" name="q3"  value="wrong">&lt;script href="File.js"&gt;<br></p> 
+        <p><input type="radio" name="q3"  value="wrong">&lt;script name="File.js"&gt;<br> </p>
+       <p><input type="radio" name="q3"  value="correct"> &lt;script src="File.js"&gt;<br><br>
+       </div></p> 
+
+       <div class="questions">
+        <label class="lbl" name="question"> 4. How to write an IF statement in JavaScript?</label><br><br>
+        
+       <p><input type="radio" name="q4"  value="wrong"> if i=5 then   <br></p> 
+        <p><input type="radio" name="q4"  value="wrong"> if i=5 <br> </p>
+       <p><input type="radio" name="q4"  value="correct"> if (i==5) <br><br>
+       </div></p> 
+        
+
+       <div class="questions">
+        <label class="lbl" name="question"> 5. How to do you create function in JavaScript?</label><br><br>
+        
+       <p><input type="radio" name="q5"  value="correct"> function myfunction()   <br></p> 
+        <p><input type="radio" name="q5"  value="wrong"> function = myfunction() <br> </p>
+       <p><input type="radio" name="q5"  value="wrong"> function:myfunction <br><br>
+       </div></p> 
+        
+    <div class="buttons">
+       <input type="button" class="btn" value="Submit" onclick="check()">
+       <input class="btn" type="reset">
+    </div>    
+         
+    </div>
+    
+       
+       
+    
+
+       
+  
+    
+</form>
+
+
+</body>
+</html>
